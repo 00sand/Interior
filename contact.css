@@ -1,0 +1,62 @@
+body {
+    background: linear-gradient(to top,
+            #C1C1C1 0%,
+            #C1C1C1 50%,
+            #dfb947 0%,
+            #dfb947 100%);
+    min-height: 100vh;
+}
+
+.white-backdrop {
+    background-color: white;
+}
+
+.white {
+    color: white;
+}
+
+.gold-hover {
+    width: 20%;
+
+}
+
+.gold-hover:hover {
+    background-color: gold;
+}
+
+.foot-back {
+    background-color: #222;
+    color: #efeeee;
+}
+
+.underline {
+    text-decoration: underline;
+    text-decoration-color: #fdcd3b;
+}
+
+.hover a {
+    padding: 0em 2em 0em 2em;
+    overflow: hidden;
+    text-align: center;
+}
+
+
+.hover a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0.1em;
+    background-color: gold;
+    opacity: 0;
+    transition: opacity 300ms, transform 300ms;
+    opacity: 1;
+    transform: translate3d(-100%, 0, 0);
+}
+
+.hover a:hover::after,
+.hover a:focus::after {
+
+    transform: translate3d(0, 0, 0);
+}
