@@ -1,13 +1,23 @@
 body {
     background: linear-gradient(to top,
-            #FAF9F6 0%,
-            #FAF9F6 50%,
+            #efeeee 0%,
+            #efeeee 50%,
             #dfb947 0%,
             #dfb947 100%);
 }
 
 .section h1 {
     color: white;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+.logoHead {
+    width: 40px;
+    height: 70px;
 }
 
 
