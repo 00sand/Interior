@@ -21,6 +21,21 @@ body {
 }
 
 
+.hidden {
+    opacity: 0;
+    filter: blur(2px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .hidden {
+        transition: all 1s;
+    }
+}
+
+
+
 .white-color {
     color: white;
 }
