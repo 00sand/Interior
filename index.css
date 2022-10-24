@@ -123,7 +123,33 @@ body {
 }
 
 
+@media (max-width: 767px) {
+    .reverse-columns {
+        flex-direction: column-reverse;
+        display: flex;
+    }
+}
 
+
+@media (max-width: 767px) {
+
+    .item-1,
+    .item-2,
+    .item-3 {
+        top: 0em;
+
+
+        font-size: 1.3em;
+    }
+}
+
+.review {
+    background-color: #2e2e2e;
+}
+
+.review p {
+    background-color: white;
+}
 
 
 
@@ -258,10 +284,6 @@ body {
     transform: translateX(0);
 
 }
-
-
-
-
 
 
 
