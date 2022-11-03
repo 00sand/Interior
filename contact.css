@@ -83,3 +83,10 @@ body {
 
     transform: translate3d(0, 0, 0);
 }
+
+.hidden {
+    opacity: 0;
+    filter: blur(2px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
