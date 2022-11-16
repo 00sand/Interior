@@ -43,4 +43,6 @@ const navBarMenu = document.querySelector("#nav-links")
 
 burgerIcon.addEventListener('click', () => {
     navBarMenu.classList.toggle('is-active')
+    
+    burgerIcon.classList.toggle("is-active")
 })
